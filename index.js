@@ -23,7 +23,3 @@ mongoose
   .catch(() => {
     console.log("Failed to connect to MongoDB");
   });
-
-app.get("/", (req, res) => {
-  res.send("Hello from node apiiii");
-});

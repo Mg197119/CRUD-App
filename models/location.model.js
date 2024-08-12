@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const locationSchema = mongoose.Schema(
   {
-    name: {
+    userName: {
       type: String,
       required: [true, "Name is missing"],
     },

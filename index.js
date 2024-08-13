@@ -1,5 +1,4 @@
 const express = require("express");
-const Location = require("./models/location.model.js");
 const locationRoute = require("./routes/location.route.js");
 const app = express();
 
